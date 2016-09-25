@@ -1,6 +1,6 @@
 {
   "name": "angular-toastr",
-  "version": "1.7.0",
+  "version": "2.1.1",
   "author": {
     "name": "Jesus Rodriguez",
     "email": "Foxandxss@gmail.com"
@@ -17,7 +17,6 @@
   ],
   "license": "MIT",
   "description": "Angular-toastr is a notification library based on CodeSeven/toastr but written for Angular.js",
-  "homepage": "https://github.com/Foxandxss/angular-toastr#readme",
   "npmName": "angular-toastr",
   "npmFileMap": [
     {

@@ -2,7 +2,7 @@
   "name": "Trumbowyg",
   "title": "Trumbowyg",
   "description": "A lightweight WYSIWYG editor",
-  "version": "1.1.7",
+  "version": "2.3.0",
   "filename": "trumbowyg.min.js",
   "homepage": "https://alex-d.github.io/Trumbowyg",
   "author": {
@@ -23,7 +23,13 @@
     "target": "git://github.com/Alex-D/Trumbowyg.git",
     "basePath": "dist",
     "files": [
-      "**/*"
+      "**/*.!(scss)"
     ]
-  }
+  },
+  "keywords": [
+    "editor",
+    "wysiwyg",
+    "javascript",
+    "richtext"
+  ]
 }

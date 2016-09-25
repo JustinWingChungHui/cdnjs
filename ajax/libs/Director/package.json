@@ -12,10 +12,19 @@
   "filename": "director.min.js",
   "version": "1.2.8",
   "description": "A client Side/Server Side Router",
-  "homepage": "https://github.com/flatiron/director",
   "repository": {
     "type": "git",
     "url": "git://github.com/flatiron/director.git"
   },
-  "author": "Charlie Robbins <charlie.robbins@gmail.com>"
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "URL",
+    "router",
+    "http",
+    "cli",
+    "flatiron",
+    "client side",
+    "ender"
+  ]
 }

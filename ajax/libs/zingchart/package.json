@@ -1,7 +1,7 @@
 {
   "name": "zingchart",
   "filename": "zingchart.min.js",
-  "version": "2.3.2",
+  "version": "2.4.1",
   "description": "A npm package for easy downloading of ZingChart.",
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "author": {
     "name": "ZingChart"
   },
-  "homepage": "https://github.com/zingchart/ZingChart",
   "npmName": "zingchart",
   "npmFileMap": [
     {

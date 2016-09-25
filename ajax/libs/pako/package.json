@@ -1,14 +1,13 @@
 {
   "name": "pako",
   "description": "zlib port to javascript - fast, modularized, with browser support",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": [
     "zlib",
     "deflate",
     "inflate",
     "gzip"
   ],
-  "homepage": "https://github.com/nodeca/pako",
   "license": "MIT",
   "repository": {
     "type": "git",

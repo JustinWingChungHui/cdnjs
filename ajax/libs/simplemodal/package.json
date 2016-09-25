@@ -13,13 +13,6 @@
     "jquery",
     "framework"
   ],
-  "licenses": [
-    {
-      "type": "GPLv2",
-      "url": "https://github.com/ericmmartin/simplemodal/blob/master/License.txt"
-    }
-  ],
-  "authors": [
-    "Eric Martin <eric@ericmmartin.com>"
-  ]
+  "license": "GPL-2.0",
+  "author": "Eric Martin <eric@ericmmartin.com>"
 }

@@ -1,7 +1,7 @@
 {
   "name": "core-js",
   "description": "Standard library",
-  "version": "2.2.1",
+  "version": "2.4.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/zloirock/core-js.git"
@@ -45,7 +45,5 @@
       "shim.min.js.map"
     ]
   },
-  "authors": [
-    "Denis Pushkarev <zloirock@zloirock.ru> (http://zloirock.ru/)"
-  ]
+  "author": "Denis Pushkarev <zloirock@zloirock.ru> (http://zloirock.ru/)"
 }

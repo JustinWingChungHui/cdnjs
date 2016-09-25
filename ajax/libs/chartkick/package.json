@@ -1,8 +1,7 @@
 {
   "name": "chartkick",
   "filename": "chartkick.min.js",
-  "version": "1.4.2",
-  "homepage": "https://github.com/ankane/chartkick.js",
+  "version": "2.1.0",
   "description": "Create beautiful JavaScript charts with minimal code",
   "keywords": [
     "charts"

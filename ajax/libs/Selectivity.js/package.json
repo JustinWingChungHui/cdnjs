@@ -13,7 +13,6 @@
     "template",
     "loading indicators"
   ],
-  "homepage": "https://github.com/arendjr/selectivity",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/arendjr/selectivity.git",
@@ -22,7 +21,5 @@
       "**/*"
     ]
   },
-  "authors": [
-    "Arend van Beelen jr."
-  ]
+  "author": "Arend van Beelen jr."
 }

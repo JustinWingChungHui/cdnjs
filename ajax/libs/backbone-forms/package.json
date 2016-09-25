@@ -1,9 +1,8 @@
 {
   "name": "backbone-forms",
   "filename": "backbone-forms.min.js",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "description": "A flexible, customisable form framework for Backbone.JS applications.",
-  "homepage": "https://github.com/powmedia/backbone-forms",
   "keywords": [
     "forms",
     "backbone"

@@ -1,6 +1,6 @@
 {
   "name": "flexibility",
-  "version": "1.0.6",
+  "version": "2.0.1",
   "filename": "flexibility.js",
   "description": "Use Flexbox while supporting older Internet Explorers",
   "keywords": [
@@ -36,18 +36,18 @@
   ],
   "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
   "license": "MIT",
-  "homepage": "https://github.com/10up/flexibility#readme",
+  "homepage": "https://jonathantneal.github.io/flexibility/",
   "npmName": "flexibility",
   "npmFileMap": [
     {
-      "basePath": "dist",
+      "basePath": "",
       "files": [
-        "**/*"
+        "flexibility*"
       ]
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/10up/flexibility.git"
+    "url": "https://github.com/jonathantneal/flexibility.git"
   }
 }

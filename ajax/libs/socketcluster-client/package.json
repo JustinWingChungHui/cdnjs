@@ -2,7 +2,7 @@
   "name": "socketcluster-client",
   "filename": "socketcluster.min.js",
   "description": "SocketCluster JavaScript client",
-  "version": "4.3.12",
+  "version": "5.0.12",
   "homepage": "http://socketcluster.io",
   "repository": {
     "type": "git",
@@ -22,7 +22,6 @@
       "socketcluster*.js"
     ]
   },
-  "authors": [
-    "Jonathan Gros-Dubois <grosjona@yahoo.com.au>"
-  ]
+  "license": "MIT",
+  "author": "Jonathan Gros-Dubois <grosjona@yahoo.com.au>"
 }

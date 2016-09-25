@@ -2,7 +2,7 @@
   "name": "bluebird",
   "description": "Full featured Promises/A+ implementation with exceptionally good performance",
   "filename": "bluebird.min.js",
-  "version": "3.3.4",
+  "version": "3.4.6",
   "keywords": [
     "promise",
     "performance",
@@ -10,7 +10,6 @@
     "promises-aplus",
     "async"
   ],
-  "homepage": "https://github.com/petkaantonov/bluebird",
   "repository": {
     "type": "git",
     "url": "git://github.com/petkaantonov/bluebird.git"

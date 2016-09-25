@@ -1,7 +1,7 @@
 {
   "name": "pangu",
   "filename": "pangu.min.js",
-  "version": "3.0.0",
+  "version": "3.2.1",
   "description": "Paranoid text spacing for good readability, to automatically insert whitespace between CJK (Chinese, Japanese, Korean) and half-width characters (alphabetical letters, numerical digits and symbols).",
   "keywords": [
     "chinese",
@@ -23,7 +23,6 @@
     "url": "https://vinta.ws/"
   },
   "license": "MIT",
-  "homepage": "https://github.com/vinta/pangu.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/vinta/pangu.js.git"

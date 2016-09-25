@@ -1,9 +1,8 @@
 {
   "name": "ember-data.js",
   "filename": "ember-data.min.js",
-  "version": "2.4.3",
+  "version": "2.8.1",
   "description": "A data layer for your Ember applications.",
-  "homepage": "https://github.com/emberjs/data",
   "keywords": [
     "ember",
     "ember.js",

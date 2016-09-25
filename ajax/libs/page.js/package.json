@@ -7,7 +7,6 @@
     "type": "git",
     "url": "git://github.com/visionmedia/page.js.git"
   },
-  "homepage": "https://github.com/visionmedia/page.js",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/visionmedia/page.js.git",
@@ -17,5 +16,12 @@
       "page.min.js"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "page",
+    "route",
+    "router",
+    "routes",
+    "pushState"
+  ]
 }

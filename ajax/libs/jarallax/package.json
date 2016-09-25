@@ -1,8 +1,7 @@
 {
   "name": "jarallax",
-  "version": "1.5.2",
+  "version": "1.7.1",
   "filename": "jarallax.min.js",
-  "homepage": "https://github.com/nk-o/jarallax",
   "description": "jQuery background parallax plugin. High performance (translate3d) with fallback (background-position) for old browsers.",
   "keywords": [
     "parallax",
@@ -21,5 +20,9 @@
       "**/*"
     ]
   },
-  "author": "_nK <nkdevinfo@gmail.com>"
+  "author": "_nK <nkdevinfo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nk-o/jarallax.git"
+  }
 }

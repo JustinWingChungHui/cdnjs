@@ -1,6 +1,6 @@
 {
   "name": "videogular",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "filename": "videogular.min.js",
   "dependencies": {
     "angular": "~1.3.x",
@@ -21,5 +21,6 @@
     "files": [
       "videogular*.js"
     ]
-  }
+  },
+  "description": "Bower repository for Videogular project"
 }

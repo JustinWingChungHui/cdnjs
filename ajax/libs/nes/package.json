@@ -1,7 +1,7 @@
 {
   "name": "nes",
   "description": "WebSocket adapter plugin for hapi routes",
-  "version": "4.2.1",
+  "version": "6.3.1",
   "filename": "client.min.js",
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
     "ws": "0.8.x"
   },
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/hapijs/nes",
   "npmName": "nes",
   "npmFileMap": [
     {

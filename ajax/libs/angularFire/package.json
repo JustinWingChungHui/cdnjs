@@ -2,8 +2,7 @@
   "name": "angularFire",
   "filename": "angularfire.min.js",
   "description": "The officially supported AngularJS binding for Firebase",
-  "version": "1.2.0",
-  "homepage": "https://github.com/firebase/angularFire",
+  "version": "2.0.2",
   "keywords": [
     "realtime",
     "websockets",

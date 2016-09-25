@@ -1,7 +1,7 @@
 {
   "name": "chosen",
   "filename": "chosen.jquery.min.js",
-  "version": "1.4.2",
+  "version": "1.6.2",
   "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
   "homepage": "http://harvesthq.github.com/chosen",
   "repository": {
@@ -17,5 +17,13 @@
     "ui"
   ],
   "license": "MIT",
-  "author": "harvest"
+  "author": "harvest",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/harvesthq/chosen-package.git",
+    "basePath": "",
+    "files": [
+      "**/*chosen*"
+    ]
+  }
 }

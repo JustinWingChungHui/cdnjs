@@ -1,6 +1,6 @@
 {
   "name": "cytoscape-panzoom",
-  "version": "2.2.3",
+  "version": "2.4.0",
   "description": "Panzoom extension for Cytoscape.js",
   "filename": "cytoscape-panzoom.min.js",
   "repository": {
@@ -12,7 +12,6 @@
     "cyext"
   ],
   "license": "deprecated_LGPL-3.0+",
-  "homepage": "https://github.com/cytoscape/cytoscape.js-panzoom",
   "author": "Max Franz",
   "npmName": "cytoscape-panzoom",
   "npmFileMap": [

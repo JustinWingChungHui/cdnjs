@@ -1,6 +1,6 @@
 {
   "name": "incremental-dom",
-  "version": "0.3.0",
+  "version": "0.5.1",
   "filename": "incremental-dom-min.js",
   "description": "An in-place virtual DOM library",
   "author": {
@@ -15,7 +15,6 @@
     "incremental",
     "dom"
   ],
-  "homepage": "https://github.com/google/incremental-dom#readme",
   "npmName": "incremental-dom",
   "npmFileMap": [
     {

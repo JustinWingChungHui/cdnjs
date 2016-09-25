@@ -1,11 +1,7 @@
 {
   "name": "circliful",
   "filename": "js/jquery.circliful.min.js",
-  "version": "0.1.5",
-  "homepage": "https://github.com/pguso/jquery-plugin-circliful",
-  "authors": [
-    "Patric Gutersohn <pguso@gmx.de>"
-  ],
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/pguso/jquery-plugin-circliful.git"
@@ -19,5 +15,7 @@
       "js/jquery.circliful*.js",
       "css/jquery.circliful*.css"
     ]
-  }
+  },
+  "description": "jQuery circle statitic plugin",
+  "author": "Patric Gutersohn <pguso@gmx.de>"
 }

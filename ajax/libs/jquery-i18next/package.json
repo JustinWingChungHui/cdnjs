@@ -1,7 +1,7 @@
 {
   "name": "jquery-i18next",
-  "filename": "i18next-jquery.min.js",
-  "version": "0.0.14",
+  "filename": "jquery-i18next.min.js",
+  "version": "1.1.0",
   "description": "i18next plugin for jquery usage",
   "keywords": [
     "i18next",
@@ -14,7 +14,6 @@
     "jquery",
     "jquery-plugin"
   ],
-  "homepage": "https://github.com/i18next/jquery-i18next",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/i18next/jquery-i18next.git"
@@ -28,9 +27,9 @@
   "npmName": "jquery-i18next",
   "npmFileMap": [
     {
-      "basePath": "",
+      "basePath": "dist/umd",
       "files": [
-        "i18next-jquery*.js"
+        "**/*"
       ]
     }
   ]

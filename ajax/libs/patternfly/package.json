@@ -1,6 +1,6 @@
 {
   "name": "patternfly",
-  "version": "3.3.2",
+  "version": "3.11.0",
   "author": "Red Hat",
   "license": "Apache-2.0",
   "filename": "js/patternfly.min.js",
@@ -36,7 +36,7 @@
     {
       "basePath": "dist",
       "files": [
-        "**/*"
+        "!(tests|less)/**/*"
       ]
     }
   ]

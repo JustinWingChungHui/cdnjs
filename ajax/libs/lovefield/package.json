@@ -1,12 +1,11 @@
 {
   "name": "lovefield",
-  "version": "2.1.7",
+  "version": "2.1.10",
   "filename": "lovefield.min.js",
   "description": "Lovefield - A relational database for web apps",
   "keywords": [
     "lovefield"
   ],
-  "homepage": "https://github.com/google/lovefield",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -25,7 +24,5 @@
       ]
     }
   ],
-  "authors": [
-    "Google Inc."
-  ]
+  "author": "Google Inc."
 }

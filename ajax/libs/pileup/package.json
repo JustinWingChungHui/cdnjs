@@ -1,21 +1,21 @@
 {
   "name": "pileup",
-  "version": "0.6.3",
+  "version": "0.6.8",
   "description": "JavaScript track viewer",
   "filename": "pileup.min.js",
   "npmName": "pileup",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
-        "*.js",
-        "*.map"
+        "!(main|test)/*pileup*.+(css|js|map)",
+        "*pileup*"
       ]
     },
     {
-      "basePath": "/style/",
+      "basePath": "style",
       "files": [
-        "*.css"
+        "pileup*.+(css|map)"
       ]
     }
   ],
@@ -23,7 +23,6 @@
     "type": "git",
     "url": "https://github.com/hammerlab/pileup.js.git"
   },
-  "homepage": "https://github.com/hammerlab/pileup.js",
   "keywords": [
     "genome",
     "track",

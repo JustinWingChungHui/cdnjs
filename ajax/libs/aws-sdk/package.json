@@ -1,13 +1,12 @@
 {
   "name": "aws-sdk",
   "filename": "aws-sdk.min.js",
-  "version": "2.3.0",
+  "version": "2.6.4",
   "description": "AWS SDK for JavaScript",
   "keywords": [
     "amazon",
     "aws"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/aws/aws-sdk-js.git",

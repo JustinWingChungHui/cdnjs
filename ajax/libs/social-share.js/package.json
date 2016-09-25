@@ -1,7 +1,7 @@
 {
   "name": "social-share.js",
   "description": "create social share buttons on your site.",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "filename": "js/social-share.min.js",
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
     "url": "https://github.com/overtrue"
   },
   "license": "MIT",
-  "homepage": "https://github.com/overtrue/share.js#readme",
   "npmName": "social-share.js",
   "npmFileMap": [
     {

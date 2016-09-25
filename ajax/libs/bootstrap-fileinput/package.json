@@ -1,8 +1,7 @@
 {
   "name": "bootstrap-fileinput",
   "filename": "js/fileinput.min.js",
-  "version": "4.3.1",
-  "homepage": "https://github.com/kartik-v/bootstrap-fileinput",
+  "version": "4.3.5",
   "description": "An enhanced HTML 5 file input for Bootstrap 3.x with file preview, multiple selection, ajax uploads, and more features.",
   "keywords": [
     "bootstrap",
@@ -27,9 +26,11 @@
     "target": "git://github.com/kartik-v/bootstrap-fileinput.git",
     "basePath": "",
     "files": [
-      "js/fileinput*.js",
-      "css/fileinput*.css",
-      "img/loading*.gif"
+      "+(css|js)/fileinput*.+(css|js|map)",
+      "js/plugins/*.+(js|map)",
+      "js/locales/!(LANG.js)",
+      "img/*.+(png|jpg|gif)",
+      "themes/**/*"
     ]
   },
   "author": "Kartik Visweswaran <kartikv2@gmail.com>"

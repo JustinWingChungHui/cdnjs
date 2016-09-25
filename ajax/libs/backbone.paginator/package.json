@@ -1,9 +1,8 @@
 {
   "name": "backbone.paginator",
   "filename": "backbone.paginator.min.js",
-  "version": "0.8",
+  "version": "2.0.5",
   "description": "A pageable Backbone.Collection superset. Supports server-side/client-side/infinite pagination and sorting.",
-  "homepage": "https://github.com/backbone-paginator/backbone.paginator",
   "keywords": [
     "backbone",
     "pagination"
@@ -13,5 +12,13 @@
     "url": "https://github.com/backbone-paginator/backbone.paginator.git"
   },
   "license": "MIT",
-  "author": "Jimmy Yuen Ho Wong <wyuenho@gmail.com>"
+  "author": "Jimmy Yuen Ho Wong <wyuenho@gmail.com>",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/backbone-paginator/backbone.paginator.git",
+    "basePath": "lib",
+    "files": [
+      "backbone.paginator*"
+    ]
+  }
 }

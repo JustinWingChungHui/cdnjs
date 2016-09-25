@@ -1,6 +1,6 @@
 {
   "name": "quagga",
-  "version": "0.10.0",
+  "version": "0.11.4",
   "filename": "quagga.min.js",
   "description": "An advanced barcode-scanner written in JavaScript",
   "repository": {
@@ -32,7 +32,6 @@
     "ndarray": "^1.0.18",
     "ndarray-linear-interpolate": "^1.0.0"
   },
-  "homepage": "https://github.com/serratus/quaggaJS#readme",
   "npmName": "quagga",
   "npmFileMap": [
     {
