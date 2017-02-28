@@ -1,7 +1,7 @@
 {
   "name": "sass.js",
   "filename": "sass.min.js",
-  "version": "0.9.13",
+  "version": "0.10.3",
   "description": "Sass.js is a convenience API for the JavaScript libsass (compiled with Emscripten)",
   "keywords": [
     "css",
@@ -10,9 +10,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/medialize/sass.js.git",
-    "basePath": "dist",
-    "files": [
-      "*.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/sass!(*node*)"
+        ]
+      }
     ]
   },
   "repository": {

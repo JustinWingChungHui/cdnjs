@@ -14,16 +14,20 @@
     "type": "git",
     "url": "https://github.com/cowboy/jquery-replacetext"
   },
-  "licences": [
+  "licenses": [
     "MIT",
     "GPL-2.0"
   ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cowboy/jquery-replacetext.git",
-    "basePath": "",
-    "files": [
-      "jquery.ba-replacetext*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.ba-replacetext*.js"
+        ]
+      }
     ]
   }
 }

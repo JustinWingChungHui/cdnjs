@@ -9,9 +9,6 @@
     "hover",
     "dropdowns"
   ],
-  "dependencies": {
-    "bootstrap": "~3.0.0"
-  },
   "author": {
     "name": "Cameron Spear",
     "web": "http://cameronspear.com"
@@ -19,10 +16,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/CWSpear/bootstrap-hover-dropdown.git",
-    "basePath": "",
-    "files": [
-      "bootstrap-hover-dropdown.min.js",
-      "bootstrap-hover-dropdown.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bootstrap-hover-dropdown.min.js",
+          "bootstrap-hover-dropdown.js"
+        ]
+      }
     ]
   },
   "repository": {

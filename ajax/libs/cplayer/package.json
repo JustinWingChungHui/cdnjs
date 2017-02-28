@@ -1,6 +1,6 @@
 {
   "name": "cplayer",
-  "version": "2.3.8",
+  "version": "2.4.5",
   "description": "A beautiful and clean WEB Music Player by HTML5.",
   "keywords": [
     "cPlayer",
@@ -21,9 +21,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Copay/cPlayer.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

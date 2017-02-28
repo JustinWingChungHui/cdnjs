@@ -11,9 +11,6 @@
   },
   "license": "MIT",
   "homepage": "http://www.toolitup.com/minimap.html",
-  "dependencies": {
-    "jquery": ">=1.8"
-  },
   "keywords": [
     "minimap",
     "preview",
@@ -22,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/princejwesley/minimap.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "repository": {

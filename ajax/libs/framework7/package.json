@@ -1,6 +1,6 @@
 {
   "name": "framework7",
-  "version": "1.4.2",
+  "version": "1.5.3",
   "description": "Full Featured Mobile HTML Framework For Building iOS & Android Apps",
   "filename": "js/framework7.min.js",
   "repository": {
@@ -34,10 +34,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nolimits4web/Framework7.git",
-    "basePath": "dist",
-    "files": [
-      "**/framework7*",
-      "img/**/*.+(png|svg)"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/framework7*",
+          "img/**/*.+(png|svg)"
+        ]
+      }
     ]
   }
 }

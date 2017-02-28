@@ -2,7 +2,7 @@
   "name": "foundation-datepicker",
   "filename": "js/foundation-datepicker.min.js",
   "description": "Foundation datepicker jQuery plugin",
-  "version": "1.5.3",
+  "version": "1.5.5",
   "homepage": "http://foundation-datepicker.peterbeno.com/",
   "author": {
     "name": "Peter Beňo",
@@ -19,13 +19,13 @@
     "foundation",
     "datepicker"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/najlepsiwebdesigner/foundation-datepicker.git",
-    "basePath": "",
-    "files": [
-      "js/foundation-datepicker.min.js",
-      "css/foundation-datepicker.min.css"
-    ]
-  }
+  "npmName": "foundation-datepicker",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "+(css|js)/**/foundation-datepicker*.+(css|js|map)"
+      ]
+    }
+  ]
 }

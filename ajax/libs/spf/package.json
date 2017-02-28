@@ -6,12 +6,18 @@
     "type": "git",
     "url": "https://github.com/youtube/spfjs.git"
   },
+  "keywords": [
+    "lightweight",
+    "framework",
+    "Fragment",
+    "navigation"
+  ],
   "filename": "spf.js",
   "namespace": "spf",
   "npmName": "spf",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*"
       ]

@@ -13,9 +13,6 @@
   ],
   "homepage": "https://github.com/tsvensen/equalize.js",
   "demo": "http://tsvensen.github.com/equalize.js/",
-  "dependencies": {
-    "jquery": ">=1.4.x"
-  },
   "licenses": [
     "MIT",
     {
@@ -26,10 +23,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/tsvensen/equalize.js.git",
-    "basePath": "js",
-    "files": [
-      "equalize.js",
-      "equalize.min.js"
+    "fileMap": [
+      {
+        "basePath": "js",
+        "files": [
+          "equalize.js",
+          "equalize.min.js"
+        ]
+      }
     ]
   },
   "repository": {

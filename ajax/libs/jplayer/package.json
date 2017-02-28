@@ -10,13 +10,10 @@
     "video",
     "html5"
   ],
-  "dependencies": {
-    "jquery": ">1.7.0"
-  },
   "npmName": "jplayer",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "**/*.css",
         "**/*.js",

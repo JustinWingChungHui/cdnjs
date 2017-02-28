@@ -4,9 +4,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/darcyclarke/Watch.js.git",
-    "basePath": "",
-    "files": [
-      "*watch*.+(js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*watch*.+(js|map)"
+        ]
+      }
     ]
   },
   "title": "jQuery Watch",
@@ -28,9 +32,6 @@
   },
   "docs": "https://github.com/darcyclarke/Watch.js",
   "download": "http://code.jquery.com/#watch",
-  "dependencies": {
-    "jquery": ">=1.6"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/darcyclarke/Watch.js"

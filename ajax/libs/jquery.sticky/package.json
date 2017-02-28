@@ -1,7 +1,7 @@
 {
   "name": "jquery.sticky",
   "filename": "jquery.sticky.min.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "http://stickyjs.com/",
   "description": "Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.",
   "keywords": [
@@ -14,9 +14,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/garand/sticky.git",
-    "basePath": "",
-    "files": [
-      "jquery.sticky*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.sticky*.js"
+        ]
+      }
     ]
   },
   "repository": {

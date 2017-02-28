@@ -21,15 +21,12 @@
   "npmName": "angular-data",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*.js",
         "*.map"
       ]
     }
   ],
-  "dependencies": {
-    "mout": "0.10.0"
-  },
   "license": "MIT"
 }

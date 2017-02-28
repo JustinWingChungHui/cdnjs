@@ -1,7 +1,7 @@
 {
   "name": "tinymce",
   "filename": "tinymce.min.js",
-  "version": "4.4.3",
+  "version": "4.5.4",
   "description": "TinyMCE rich text editor",
   "homepage": "http://www.tinymce.com",
   "keywords": [
@@ -12,16 +12,13 @@
   "npmName": "tinymce",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
-        "tinymce.min.js",
-        "tinymce.jquery.min.js",
-        "jquery.tinymce.min.js",
-        "themes/modern/theme.min.js",
-        "skins/lightgray/*.css",
+        "**/*.min.+(css|js|map)",
         "skins/lightgray/img/*",
         "skins/lightgray/fonts/*",
-        "plugins/*"
+        "plugins/**/plugin.js",
+        "plugins/**/*.!(js)"
       ]
     }
   ],
@@ -29,5 +26,6 @@
     "type": "git",
     "url": "https://github.com/tinymce/tinymce.git"
   },
-  "author": "Johan Sörlin <spocke@moxiecode.com>"
+  "author": "Johan Sörlin <spocke@moxiecode.com>",
+  "license": "LGPL-2.0"
 }

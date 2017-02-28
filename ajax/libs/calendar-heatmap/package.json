@@ -11,10 +11,6 @@
     "type": "git",
     "url": "git://github.com/DKirwan/calendar-heatmap.git"
   },
-  "dependencies": {
-    "d3": "3.5.x",
-    "moment": "2.11.x"
-  },
   "keywords": [
     "d3",
     "moment",
@@ -24,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/DKirwan/calendar-heatmap.git",
-    "basePath": "src",
-    "files": [
-      "calendar-heatmap*"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "calendar-heatmap*"
+        ]
+      }
     ]
   }
 }

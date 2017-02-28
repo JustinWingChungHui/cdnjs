@@ -1,14 +1,11 @@
 {
   "name": "libsodium-wrappers",
-  "version": "0.4.2",
+  "version": "0.4.9",
   "filename": "sodium.min.js",
   "description": "The Sodium cryptographic library compiled to pure JavaScript (wrappers)",
   "repository": {
     "type": "git",
     "url": "https://github.com/jedisct1/libsodium.js.git"
-  },
-  "dependencies": {
-    "libsodium": "0.2.10"
   },
   "keywords": [
     "crypto",
@@ -27,9 +24,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jedisct1/libsodium.js.git",
-    "basePath": "dist/browsers/combined",
-    "files": [
-      "**/*.js"
+    "fileMap": [
+      {
+        "basePath": "dist/browsers/combined",
+        "files": [
+          "**/*.js"
+        ]
+      }
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "datalib",
   "filename": "datalib.min.js",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "JavaScript utilites for loading, summarizing and working with data.",
   "keywords": [
     "data",
@@ -25,9 +25,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/vega/datalib.git",
-    "basePath": "",
-    "files": [
-      "datalib*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "datalib*.js"
+        ]
+      }
     ]
   }
 }

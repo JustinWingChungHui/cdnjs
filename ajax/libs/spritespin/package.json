@@ -1,7 +1,7 @@
 {
   "name": "spritespin",
   "filename": "spritespin.min.js",
-  "version": "3.4.1",
+  "version": "3.4.3",
   "description": "jQuery plugin for creating flipbook animations",
   "repository": {
     "type": "git",
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/giniedp/spritespin.git",
-    "basePath": "release",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "release",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

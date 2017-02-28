@@ -1,6 +1,6 @@
 {
   "name": "markdown-it",
-  "version": "8.0.0",
+  "version": "8.3.0",
   "filename": "markdown-it.min.js",
   "description": "Markdown-it - modern pluggable markdown parser.",
   "keywords": [
@@ -15,16 +15,16 @@
     "url": "git://github.com/markdown-it/markdown-it.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "argparse": "~ 0.1.15",
-    "autolinker": "~ 0.15.0"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/markdown-it/markdown-it.git",
-    "basePath": "dist",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
     ]
   }
 }

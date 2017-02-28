@@ -16,16 +16,16 @@
     "sync"
   ],
   "license": "MIT",
-  "dependencies": {
-    "backbone": ">=0.9.2",
-    "underscore": "~1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nilbus/Backbone.dualStorage.git",
-    "basePath": "",
-    "files": [
-      "backbone.dualstorage*.+(js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "backbone.dualstorage*.+(js|map)"
+        ]
+      }
     ]
   },
   "repository": {

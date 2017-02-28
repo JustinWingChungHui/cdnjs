@@ -1,6 +1,6 @@
 {
   "name": "jquery.scrollbar",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Cross-browser CSS customizable scrollbar",
   "filename": "jquery.scrollbar.min.js",
   "repository": {
@@ -18,9 +18,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/gromo/jquery.scrollbar.git",
-    "basePath": "",
-    "files": [
-      "jquery.scrollbar*.+(css|js)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.scrollbar*.+(css|js)"
+        ]
+      }
     ]
   }
 }

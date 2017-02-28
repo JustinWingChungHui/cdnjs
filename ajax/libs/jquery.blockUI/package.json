@@ -23,11 +23,6 @@
   ],
   "docs": "http://jquery.malsup.com/block/",
   "download": "http://malsup.github.com/jquery.blockUI.js",
-  "dependencies": {
-    "jquery": {
-      "jquery": ">=1.7"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/malsup/blockui"
@@ -35,9 +30,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/malsup/blockui.git",
-    "basePath": "",
-    "files": [
-      "jquery.blockUI*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.blockUI*.js"
+        ]
+      }
     ]
   }
 }

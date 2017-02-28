@@ -11,11 +11,14 @@
   "npmName": "Base64",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "*.js"
       ]
     }
   ],
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "keywords": [
+    "Base64"
+  ]
 }

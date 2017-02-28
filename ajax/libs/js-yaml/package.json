@@ -1,7 +1,7 @@
 {
   "name": "js-yaml",
   "filename": "js-yaml.min.js",
-  "version": "3.6.1",
+  "version": "3.8.1",
   "description": "YAML 1.2 parser and serializer",
   "keywords": [
     "yaml",
@@ -12,9 +12,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nodeca/js-yaml.git",
-    "basePath": "dist",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
     ]
   },
   "repository": {

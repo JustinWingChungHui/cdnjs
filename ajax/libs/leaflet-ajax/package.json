@@ -1,6 +1,6 @@
 {
   "name": "leaflet-ajax",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "filename": "leaflet.ajax.min.js",
   "description": "AJAX and JSONP in Leaflet",
   "repository": {
@@ -14,15 +14,16 @@
   ],
   "author": "Calvin Metcalf",
   "license": "MIT",
-  "dependencies": {
-    "lie": "^3.0.1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/calvinmetcalf/leaflet-ajax.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

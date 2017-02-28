@@ -15,15 +15,16 @@
     "type": "git",
     "url": "https://github.com/btmills/geopattern"
   },
-  "dependencies": {
-    "extend": "~1.2.1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/btmills/geopattern.git",
-    "basePath": "",
-    "files": [
-      "+(js|css)/**/geopattern*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(js|css)/**/geopattern*"
+        ]
+      }
     ]
   }
 }

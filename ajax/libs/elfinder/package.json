@@ -1,6 +1,6 @@
 {
   "name": "elfinder",
-  "version": "2.1.15",
+  "version": "2.1.22",
   "filename": "js/elfinder.min.js",
   "description": "Open-source file manager for web, written in JavaScript using jQuery and jQuery UI.",
   "author": "Studio-42 (https://github.com/Studio-42/elFinder)",
@@ -20,12 +20,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Studio-42/elFinder.git",
-    "basePath": "",
-    "files": [
-      "js/**/+(elFinder|elfinder|quicklook.googledocs)*.+(js|map)",
-      "css/+(elfinder|theme)*.+(css|map)",
-      "img/*.+(png|gif)",
-      "sounds/*.wav"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "js/**/+(elFinder|elfinder|quicklook.googledocs)*.+(js|map)",
+          "css/+(elfinder|theme)*.+(css|map)",
+          "img/*.+(png|gif)",
+          "sounds/*.wav"
+        ]
+      }
     ]
   }
 }

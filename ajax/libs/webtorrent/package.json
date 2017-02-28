@@ -1,6 +1,6 @@
 {
   "name": "webtorrent",
-  "version": "0.97.1",
+  "version": "0.98.8",
   "filename": "webtorrent.min.js",
   "description": "Streaming torrent client",
   "homepage": "http://webtorrent.io",
@@ -29,9 +29,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/feross/webtorrent.git",
-    "basePath": "",
-    "files": [
-      "webtorrent.min.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "webtorrent.min.js"
+        ]
+      }
     ]
   }
 }

@@ -16,9 +16,17 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/malsup/cycle.git",
-    "basePath": "",
-    "files": [
-      "jquery.cycle*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.cycle*.js"
+        ]
+      }
     ]
-  }
+  },
+  "licenses": [
+    "MIT",
+    "GPL-2.0"
+  ]
 }

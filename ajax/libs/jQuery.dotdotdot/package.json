@@ -13,9 +13,6 @@
     "overflow",
     "dots"
   ],
-  "dependencies": {
-    "jquery": ">= 1.4.3"
-  },
   "licenses": [
     "MIT",
     {
@@ -30,9 +27,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/BeSite/jQuery.dotdotdot.git",
-    "basePath": "src/js",
-    "files": [
-      "*.js"
+    "fileMap": [
+      {
+        "basePath": "src/js",
+        "files": [
+          "*.js"
+        ]
+      }
     ]
   },
   "author": "Fred Heusschen <info@frebsite.nl>"

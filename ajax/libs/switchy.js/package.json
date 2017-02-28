@@ -16,15 +16,16 @@
     "url": "https://github.com/lou"
   },
   "homepage": "http://lou.github.com/switchy/",
-  "dependencies": {
-    "jquery": ">= 1.8"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/lou/switchy.git",
-    "basePath": "",
-    "files": [
-      "switchy*.+(css|js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "switchy*.+(css|js|map)"
+        ]
+      }
     ]
   },
   "license": "WTFPL",

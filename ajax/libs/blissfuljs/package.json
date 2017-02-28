@@ -1,7 +1,7 @@
 {
   "name": "blissfuljs",
   "filename": "bliss.min.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight helper library for modern browsers.",
   "repository": {
     "type": "git",
@@ -21,11 +21,15 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/LeaVerou/bliss.git",
-    "basePath": "",
-    "files": [
-      "bliss.js",
-      "bliss.min.js",
-      "bliss.shy*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bliss.js",
+          "bliss.min.js",
+          "bliss.shy*.js"
+        ]
+      }
     ]
   }
 }

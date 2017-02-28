@@ -14,12 +14,13 @@
   "npmName": "klass",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "klass.js",
         "klass.min.js"
       ]
     }
   ],
-  "author": "Dustin Diaz <polvero@gmail.com> (http://dustindiaz.com)"
+  "author": "Dustin Diaz <polvero@gmail.com> (http://dustindiaz.com)",
+  "license": "MIT"
 }

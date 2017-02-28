@@ -19,11 +19,11 @@
   "npmName": "react-router-redux",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]
     }
   ],
-  "version": "4.0.6"
+  "version": "4.0.8"
 }

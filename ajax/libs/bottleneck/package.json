@@ -1,7 +1,7 @@
 {
   "name": "bottleneck",
   "filename": "bottleneck.min.js",
-  "version": "1.13.1",
+  "version": "1.15.1",
   "description": "Async rate limiter",
   "repository": {
     "type": "git",
@@ -27,9 +27,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/SGrondin/bottleneck.git",
-    "basePath": "",
-    "files": [
-      "bottleneck*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bottleneck*.js"
+        ]
+      }
     ]
   }
 }

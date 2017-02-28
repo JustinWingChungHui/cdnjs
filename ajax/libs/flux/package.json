@@ -1,6 +1,6 @@
 {
   "name": "flux",
-  "version": "2.1.1",
+  "version": "3.1.2",
   "description": "An application architecture based on a unidirectional data flow",
   "filename": "Flux.min.js",
   "keywords": [
@@ -16,12 +16,13 @@
   },
   "author": "Facebook",
   "license": "BSD-3-Clause",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/facebook/flux.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
-    ]
-  }
+  "npmName": "flux",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

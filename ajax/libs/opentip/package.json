@@ -13,19 +13,16 @@
     "url": "https://github.com/enyo/opentip.git"
   },
   "author": "Matias Meno",
-  "dependencies": {
-    "qwery": "3.x",
-    "domready": "0.x",
-    "bean": "0.x",
-    "bonzo": "1.x",
-    "reqwest": "0.x"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/enyo/opentip.git",
-    "basePath": "",
-    "files": [
-      "+(css|downloads|lib)/+(opentip|adapter)*.+(js|css|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(css|downloads|lib)/+(opentip|adapter)*.+(js|css|map)"
+        ]
+      }
     ]
   }
 }

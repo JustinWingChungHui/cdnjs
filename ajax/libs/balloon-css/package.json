@@ -1,11 +1,15 @@
 {
   "name": "balloon-css",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "filename": "balloon.min.css",
   "description": "Simple tooltips made of pure CSS",
   "author": "Claudio Holanda",
   "license": "MIT",
   "homepage": "https://kazzkiq.github.io/balloon.css/",
+  "keywords": [
+    "css",
+    "tooltip"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/kazzkiq/balloon.css.git"

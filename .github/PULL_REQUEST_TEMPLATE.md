@@ -1,3 +1,7 @@
+
+Pull request for issue: #
+Related issue(s): # #
+
 Checklist for **Pull request** or **lib adding request issue** follows the conventions.
 
 Note that if you are using a distribution purpose repository/package, please also provide the url and other related info like popularity of the source code repo/package.
@@ -6,9 +10,10 @@ Note that if you are using a distribution purpose repository/package, please als
  * Git repository (required):
  * Official website (optional, not the repository):
  * NPM package url (optional):
+ * License and its reference:
  * GitHub / Bitbucket popularity (required):
-   - Count of stars:
    - Count of watchers:
+   - Count of stars:
    - Count of forks:
  * NPM download stats (optional):
    - Downloads in the last day:

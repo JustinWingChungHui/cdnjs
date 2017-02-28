@@ -1,6 +1,6 @@
 {
   "name": "ractive-require",
-  "version": "0.6.9",
+  "version": "0.6.12",
   "description": "Require Ractive views on demand in Package by Feature way",
   "filename": "ractive-require.min.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
   "npmName": "ractive-require",
   "npmFileMap": [
     {
-      "basePath": "dist/",
+      "basePath": "dist",
       "files": [
         "ractive-require.js",
         "ractive-require.min.js",

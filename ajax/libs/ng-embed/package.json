@@ -1,6 +1,6 @@
 {
   "name": "ng-embed",
-  "version": "2.0.4",
+  "version": "2.1.1",
   "filename": "ng-embed.min.js",
   "description": "An AngularJS filter to convert text into emoticons.",
   "repository": {
@@ -16,10 +16,6 @@
     "smiley",
     "smileys"
   ],
-  "dependencies": {
-    "angular": "1.x",
-    "angular-sanitize": "1.x"
-  },
   "npmName": "ng-embed",
   "npmFileMap": [
     {

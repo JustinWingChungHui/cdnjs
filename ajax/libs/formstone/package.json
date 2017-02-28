@@ -1,7 +1,7 @@
 {
   "name": "formstone",
   "filename": "js/core.js",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "description": "Library of modular front end components.",
   "repository": {
     "type": "git",
@@ -14,15 +14,19 @@
     "email": "mr@benplum.com",
     "url": "http://www.benplum.com"
   },
-  "dependencies": {
-    "jquery": ">=1.11.1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Formstone/Formstone.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
-  }
+  },
+  "keywords": [
+    "formstone"
+  ]
 }

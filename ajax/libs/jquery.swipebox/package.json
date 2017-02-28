@@ -16,15 +16,20 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/brutaldesign/swipebox.git",
-    "basePath": "src",
-    "files": [
-      "css/*",
-      "js/*",
-      "img/*"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "css/*",
+          "js/*",
+          "img/*"
+        ]
+      }
     ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/brutaldesign/swipebox.git"
-  }
+  },
+  "license": "MIT"
 }

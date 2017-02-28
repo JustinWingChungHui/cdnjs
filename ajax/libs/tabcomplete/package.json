@@ -10,7 +10,7 @@
   "npmName": "tabcomplete",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "tabcomplete.js",
         "tabcomplete.min.js"
@@ -25,9 +25,6 @@
     "input",
     "textarea"
   ],
-  "dependencies": {
-    "jquery": ">=1.9"
-  },
   "author": "Mattias Erming",
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 {
   "name": "umbrella",
-  "version": "2.6.6",
+  "version": "2.6.7",
   "filename": "umbrella.min.js",
   "homepage": "http://umbrellajs.com/",
   "author": "Francisco Presencia <developerfrancisco@hotmail.com>",
@@ -23,9 +23,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/umbrellajs/umbrella.git",
-    "basePath": "",
-    "files": [
-      "umbrella*.+(js|css|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "umbrella*.+(js|css|map)"
+        ]
+      }
     ]
   }
 }

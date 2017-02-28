@@ -7,7 +7,7 @@
   "npmName": "eve.js",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "eve.min.js"
       ]
@@ -17,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/Yuffster/Eve.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "eve.js"
+  ]
 }

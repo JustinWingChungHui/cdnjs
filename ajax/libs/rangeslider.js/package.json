@@ -2,7 +2,7 @@
   "name": "rangeslider.js",
   "title": "rangeslider.js",
   "description": "Simple, small and fast JavaScript/jQuery polyfill for the HTML5 <input type=\"range\"> slider element",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "filename": "rangeslider.min.css",
   "author": {
     "name": "André Ruffert",
@@ -26,7 +26,7 @@
   "npmName": "rangeslider.js",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

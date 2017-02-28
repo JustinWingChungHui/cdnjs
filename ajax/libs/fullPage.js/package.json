@@ -1,6 +1,6 @@
 {
   "name": "fullPage.js",
-  "version": "2.8.6",
+  "version": "2.9.2",
   "homepage": "http://alvarotrigo.com/fullPage/",
   "description": "Create  beautiful fullscreen scrolling websites",
   "filename": "jquery.fullPage.min.css",
@@ -12,17 +12,22 @@
     "sliding"
   ],
   "license": "MIT",
-  "dependencies": {
-    "jquery": "1.x"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/alvarotrigo/fullPage.js.git",
-    "basePath": "",
-    "files": [
-      "vendors/*",
-      "jquery.fullPage*.js",
-      "jquery.fullPage*.css"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "vendors/*"
+        ]
+      },
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "repository": {

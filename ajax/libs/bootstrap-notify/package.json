@@ -8,6 +8,7 @@
     "alert",
     "notify"
   ],
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/goodybag/bootstrap-notify.git"
@@ -15,10 +16,15 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/goodybag/bootstrap-notify.git",
-    "files": [
-      "css/styles/alert-*.css",
-      "css/bootstrap-notify*.css",
-      "js/bootstrap-notify*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/styles/alert-*.css",
+          "css/bootstrap-notify*.css",
+          "js/bootstrap-notify*.js"
+        ]
+      }
     ]
   }
 }

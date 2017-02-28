@@ -6,7 +6,7 @@
     "name": "Julien Valéry",
     "email": "darul75@gmail.com"
   },
-  "filename": "/ng-slider.min.js",
+  "filename": "ng-slider.min.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/darul75/angular-awesome-slider.git"
@@ -14,7 +14,7 @@
   "npmName": "ng-slider",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]
@@ -26,6 +26,5 @@
     "control",
     "ui"
   ],
-  "dependencies": {},
   "license": "MIT"
 }

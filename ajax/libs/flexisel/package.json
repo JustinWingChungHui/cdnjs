@@ -1,7 +1,7 @@
 {
   "name": "flexisel",
   "filename": "js/jquery.flexisel.min.js",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A responsive carousel jQuery plugin",
   "repository": {
     "type": "git",
@@ -17,9 +17,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/9bitStudios/flexisel.git",
-    "basePath": "",
-    "files": [
-      "js/jquery.flexisel*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "js/jquery.flexisel*"
+        ]
+      }
     ]
   }
 }

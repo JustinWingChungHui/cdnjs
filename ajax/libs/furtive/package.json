@@ -1,7 +1,7 @@
 {
   "name": "furtive",
   "filename": "furtive.min.css",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "A forward-thinking, CSS micro-framework. Minimal by design.",
   "keywords": [
     "furtive",
@@ -15,9 +15,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/johnotander/furtive.git",
-    "basePath": "css/",
-    "files": [
-      "furtive*.css"
+    "fileMap": [
+      {
+        "basePath": "css",
+        "files": [
+          "furtive*.css"
+        ]
+      }
     ]
   },
   "repository": {

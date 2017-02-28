@@ -1,6 +1,6 @@
 {
   "name": "mouse0270-bootstrap-notify",
-  "version": "3.1.5",
+  "version": "3.1.7",
   "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
   "repository": {
     "type": "git",
@@ -23,9 +23,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mouse0270/bootstrap-notify.git",
-    "basePath": "",
-    "files": [
-      "bootstrap-notify*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bootstrap-notify*.js"
+        ]
+      }
     ]
   }
 }

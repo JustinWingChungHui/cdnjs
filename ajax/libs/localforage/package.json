@@ -3,7 +3,7 @@
   "npmName": "localforage",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*.js"
       ]
@@ -17,7 +17,7 @@
     "storage",
     "websql"
   ],
-  "version": "1.4.2",
+  "version": "1.5.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/mozilla/localForage.git"

@@ -10,7 +10,7 @@
       ]
     }
   ],
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "a geospatial format parser for Leaflet",
   "repository": {
     "type": "git",
@@ -23,10 +23,7 @@
     "csv",
     "gpx",
     "geojson",
-    "kml",
-    "leaflet",
     "maps",
-    "gpx",
     "wkt",
     "osm",
     "polyline",
@@ -35,15 +32,5 @@
     "converter"
   ],
   "author": "Tom MacWright",
-  "license": "BSD-3-Clause",
-  "dependencies": {
-    "csv2geojson": "~3.6.1",
-    "togeojson": "0.10.1",
-    "corslite": "0.0.6",
-    "wellknown": "0.3.0",
-    "hintify": "~0.1.0",
-    "brfs": "0.2.1",
-    "topojson": "1.6.8",
-    "polyline": "0.0.3"
-  }
+  "license": "BSD-3-Clause"
 }

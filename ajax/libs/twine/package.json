@@ -1,6 +1,6 @@
 {
   "name": "twine",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "filename": "twine.min.js",
   "description": "A minimalistic 2-way binding system",
   "repository": {
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Shopify/twine.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

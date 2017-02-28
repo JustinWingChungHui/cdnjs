@@ -3,7 +3,7 @@
   "npmName": "ng-clip",
   "npmFileMap": [
     {
-      "basePath": "/dest/",
+      "basePath": "dest",
       "files": [
         "*"
       ]
@@ -28,5 +28,5 @@
     "email": "asafdav@gmail.com",
     "url": "http://about.me/asafdavid"
   },
-  "dependencies": {}
+  "license": "MIT"
 }

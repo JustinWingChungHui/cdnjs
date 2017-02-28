@@ -22,15 +22,16 @@
     "handsontable",
     "spreadsheet"
   ],
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Tilotiti/jQuery-Google-Map.git",
-    "basePath": "",
-    "files": [
-      "jquery.googlemap.*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.googlemap.*"
+        ]
+      }
     ]
   },
   "repository": {

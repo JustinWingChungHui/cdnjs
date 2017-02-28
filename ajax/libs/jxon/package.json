@@ -23,13 +23,10 @@
     "json2xml"
   ],
   "license": "GPL v3",
-  "dependencies": {
-    "xmldom": "~0.1.17"
-  },
   "npmName": "jxon",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "index.js"
       ]

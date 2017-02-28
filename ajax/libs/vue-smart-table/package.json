@@ -4,6 +4,7 @@
   "filename": "vue-smart-table.min.js",
   "description": "A table with dynamic components for vue.js",
   "author": "Andrea Passaglia <gurghet@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/gurghet/vue-smart-table.git"
@@ -16,10 +17,6 @@
     "grid",
     "smart"
   ],
-  "dependencies": {
-    "camel-case": "^3.0.0",
-    "pascal-case": "^2.0.0"
-  },
   "npmName": "vue-smart-table",
   "npmFileMap": [
     {

@@ -2,7 +2,7 @@
   "name": "jquery-footable",
   "filename": "footable.min.js",
   "description": "jQuery plugin to make HTML tables responsive",
-  "version": "3.1.1",
+  "version": "3.1.4",
   "keywords": [
     "jquery",
     "footable",
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/fooplugins/FooTable.git",
-    "basePath": "compiled",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "compiled",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

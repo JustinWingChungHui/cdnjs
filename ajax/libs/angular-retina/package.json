@@ -6,7 +6,7 @@
   "npmName": "angular-retina",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*.js"
       ]
@@ -20,7 +20,6 @@
     "type": "git",
     "url": "git://github.com/jrief/angular-retina.git"
   },
-  "dependencies": {},
   "keywords": [
     "angularjs",
     "ngSrc",

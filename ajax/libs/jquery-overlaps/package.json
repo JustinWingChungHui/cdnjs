@@ -14,15 +14,16 @@
     "name": "Brandon Aaron",
     "url": "http://brandonaaron.net"
   },
-  "dependencies": {
-    "jquery": ">=1.2.6"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/brandonaaron/jquery-overlaps.git",
-    "basePath": "",
-    "files": [
-      "jquery.overlaps*.+(css|js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.overlaps*.+(css|js|map)"
+        ]
+      }
     ]
   },
   "repository": {

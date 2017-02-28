@@ -22,9 +22,6 @@
     "machina.js",
     "machinajs"
   ],
-  "dependencies": {
-    "underscore": ">=1.1.7"
-  },
   "licenses": [
     "MIT",
     {
@@ -35,7 +32,7 @@
   "npmName": "machina",
   "npmFileMap": [
     {
-      "basePath": "/lib/",
+      "basePath": "lib",
       "files": [
         "machina.js",
         "machina.min.js"

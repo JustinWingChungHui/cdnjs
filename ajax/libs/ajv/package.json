@@ -1,6 +1,6 @@
 {
   "name": "ajv",
-  "version": "4.7.4",
+  "version": "4.11.3",
   "description": "Another JSON Schema Validator",
   "repository": {
     "type": "git",
@@ -13,9 +13,6 @@
   ],
   "author": "Evgeny Poberezkin",
   "license": "MIT",
-  "dependencies": {
-    "json-stable-stringify": "^1.0.0"
-  },
   "npmName": "ajv",
   "npmFileMap": [
     {

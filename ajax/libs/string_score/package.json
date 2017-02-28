@@ -12,7 +12,7 @@
   "npmName": "string_score",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "string_score.js",
         "string_score.min.js"
@@ -23,5 +23,6 @@
     "type": "git",
     "url": "https://github.com/joshaven/string_score.git"
   },
-  "author": "Joshaven Potter <yourtech@gmail.com>"
+  "author": "Joshaven Potter <yourtech@gmail.com>",
+  "license": "MIT"
 }

@@ -1,6 +1,6 @@
 {
   "name": "font-mfizz",
-  "version": "2.3.0",
+  "version": "2.4.1",
   "description": "Font Mfizz - Vector Icons for Technology and Software Geeks",
   "filename": "font-mfizz.min.css",
   "repository": {
@@ -17,9 +17,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/fizzed/font-mfizz.git",
-    "basePath": "dist",
-    "files": [
-      "**/font-mfizz*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/font-mfizz*"
+        ]
+      }
     ]
   }
 }

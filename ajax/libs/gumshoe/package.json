@@ -1,7 +1,7 @@
 {
   "name": "gumshoe",
   "filename": "js/gumshoe.min.js",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "A simple, framework-agnostic scrollspy script.",
   "author": {
     "name": "Chris Ferdinandi",
@@ -15,9 +15,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cferdinandi/gumshoe.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
-  }
+  },
+  "keywords": [
+    "gumshoe"
+  ]
 }

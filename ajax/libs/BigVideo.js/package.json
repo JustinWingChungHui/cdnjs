@@ -18,17 +18,15 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/dfcb/BigVideo.js.git",
-    "basePath": "",
-    "files": [
-      "+(css|lib)/bigvideo*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(css|lib)/bigvideo*"
+        ]
+      }
     ]
   },
   "homepage": "https://dfcb.github.com/BigVideo.js/",
-  "dependencies": {
-    "jquery": ">=1.7.2",
-    "jqueryui": ">=1.8.22",
-    "videojs": ">=3.2.0",
-    "imagesloaded": ">=2.1.1"
-  },
   "version": "1.1.5"
 }

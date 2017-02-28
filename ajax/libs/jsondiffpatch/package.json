@@ -13,9 +13,6 @@
     "diff",
     "patch"
   ],
-  "dependencies": {
-    "chalk": "^0.5.1"
-  },
   "bundleDependencies": [],
   "license": "MIT",
   "testling": {
@@ -39,9 +36,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/benjamine/jsondiffpatch.git",
-    "basePath": "public/build",
-    "files": [
-      "jsondiffpatch*"
+    "fileMap": [
+      {
+        "basePath": "public/build",
+        "files": [
+          "jsondiffpatch*"
+        ]
+      }
     ]
   }
 }

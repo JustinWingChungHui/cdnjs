@@ -10,9 +10,6 @@
     "url": "http://wenzhixin.net.cn/"
   },
   "license": "MIT License",
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
   "keywords": [
     "multiple.select",
     "select.list",
@@ -29,9 +26,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wenzhixin/multiple-select.git",
-    "basePath": "",
-    "files": [
-      "multiple.select.*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "multiple.select.*"
+        ]
+      }
     ]
   }
 }

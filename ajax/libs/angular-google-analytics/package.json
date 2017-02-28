@@ -1,7 +1,7 @@
 {
   "name": "angular-google-analytics",
   "description": "Angular Google Analytics - Easy tracking for your AngularJS application",
-  "version": "1.1.7",
+  "version": "1.1.9",
   "author": "Julien Bouquillon <julien@revolunet.com> (https://github.com/revolunet)",
   "filename": "angular-google-analytics.min.js",
   "repository": {
@@ -19,15 +19,16 @@
     "visitor-tracking",
     "universal-analytics"
   ],
-  "dependencies": {
-    "angular": ">=1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/revolunet/angular-google-analytics.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

@@ -2,7 +2,7 @@
   "name": "typescript",
   "npm-name": "typescript",
   "filename": "typescript.min.js",
-  "version": "2.0.3",
+  "version": "2.2.1",
   "description": "TypeScript is a language for application scale JavaScript development",
   "homepage": "http://www.typescriptlang.org",
   "author": "Microsoft Corp.",
@@ -18,7 +18,7 @@
   "npmName": "typescript",
   "npmFileMap": [
     {
-      "basePath": "lib/",
+      "basePath": "lib",
       "files": [
         "typescript.js"
       ]

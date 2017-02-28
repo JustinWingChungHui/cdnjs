@@ -1,11 +1,6 @@
 {
   "name": "primeui",
   "description": "PrimeUI PrimeUI is a collection of rich javascript widgets and web components based on jQuery UI API",
-  "dependencies": {
-    "jquery": ">=1.11.0",
-    "jqueryui": ">=1.11.0",
-    "fontawesome": ">=4.3.0"
-  },
   "keywords": [
     "jquery",
     "ui",
@@ -23,9 +18,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/primefaces/primeui-distribution.git",
-    "basePath": "",
-    "files": [
-      "primeui*.+(js|css)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "primeui*.+(js|css)"
+        ]
+      }
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "ngDraggable",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Drag and drop module for Angular JS with support for touch devices.",
   "filename": "ngDraggable.min.js",
   "repository": {
@@ -16,9 +16,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/fatlinesofcode/ngDraggable.git",
-    "basePath": "",
-    "files": [
-      "ngDraggable*.+(js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "ngDraggable*.+(js|map)"
+        ]
+      }
     ]
   }
 }

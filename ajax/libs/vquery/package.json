@@ -1,6 +1,6 @@
 {
   "name": "vquery",
-  "version": "4.6.0",
+  "version": "4.7.0",
   "filename": "v.min.js",
   "description": "A simple, light-weight, vanilla JS wrapper for jQuery-like syntax.",
   "repository": {
@@ -30,9 +30,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jaszhix/vquery.git",
-    "basePath": "",
-    "files": [
-      "v.min.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "v.min.js"
+        ]
+      }
     ]
   }
 }

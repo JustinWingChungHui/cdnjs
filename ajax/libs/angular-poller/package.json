@@ -11,7 +11,6 @@
     "type": "git",
     "url": "https://github.com/emmaguo/angular-poller.git"
   },
-  "dependencies": {},
   "keywords": [
     "AngularJS",
     "angular",
@@ -22,10 +21,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/emmaguo/angular-poller.git",
-    "basePath": "",
-    "files": [
-      "angular-poller.js",
-      "angular-poller.min.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "angular-poller.js",
+          "angular-poller.min.js"
+        ]
+      }
     ]
   },
   "license": "MIT"

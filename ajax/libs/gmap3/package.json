@@ -1,6 +1,6 @@
 {
   "name": "gmap3",
-  "version": "7.1.0",
+  "version": "7.2.0",
   "filename": "gmap3.min.js",
   "description": "jQuery plugin to generate Google Maps",
   "repository": {
@@ -16,9 +16,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jbdemonte/gmap3.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "!(examples)",
+          "!(examples)/*"
+        ]
+      }
     ]
   },
   "keywords": [

@@ -19,15 +19,16 @@
     "mvi",
     "virtual-dom"
   ],
-  "dependencies": {
-    "rx": "2.5.3"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cyclejs/cycle-core.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

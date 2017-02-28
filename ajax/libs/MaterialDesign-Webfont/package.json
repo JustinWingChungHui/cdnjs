@@ -1,6 +1,6 @@
 {
   "name": "MaterialDesign-Webfont",
-  "version": "1.7.22",
+  "version": "1.8.36",
   "description": "Dist for Material Design Webfont. This includes the Stock and Community icons in a single webfont collection.",
   "filename": "css/materialdesignicons.min.css",
   "repository": {
@@ -25,9 +25,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Templarian/MaterialDesign-Webfont.git",
-    "basePath": "",
-    "files": [
-      "+(css|fonts)/**/materialdesignicons*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(css|fonts)/**/materialdesignicons*"
+        ]
+      }
     ]
   }
 }

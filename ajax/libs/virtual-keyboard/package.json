@@ -2,15 +2,12 @@
   "name": "virtual-keyboard",
   "title": "Keyboard",
   "description": "Virtual Keyboard using jQuery UI",
-  "version": "1.26.4",
+  "version": "1.26.17",
   "author": {
     "name": "Jeremy Satterfield",
     "url": "https://github.com/jsatt"
   },
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.4.3"
-  },
   "keywords": [
     "customizable",
     "keyboard",
@@ -30,7 +27,7 @@
   "npmName": "virtual-keyboard",
   "npmFileMap": [
     {
-      "basePath": "dist/",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

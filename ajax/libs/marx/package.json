@@ -1,6 +1,6 @@
 {
   "name": "marx",
-  "version": "2.0.4",
+  "version": "2.0.7",
   "description": "The stylish CSS reset.",
   "filename": "marx.min.css",
   "repository": {
@@ -32,9 +32,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mblode/marx.git",
-    "basePath": "css",
-    "files": [
-      "marx*.+(css|map)"
+    "fileMap": [
+      {
+        "basePath": "css",
+        "files": [
+          "marx*.+(css|map)"
+        ]
+      }
     ]
   }
 }

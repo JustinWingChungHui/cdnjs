@@ -1,6 +1,6 @@
 {
   "name": "reactable",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "description": "Fast, flexible, simple data tables in React",
   "filename": "reactable.min.js",
   "repository": {
@@ -18,9 +18,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/glittershark/reactable.git",
-    "basePath": "build",
-    "files": [
-      "reactable*.js"
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "reactable*.js"
+        ]
+      }
     ]
   }
 }

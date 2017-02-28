@@ -10,15 +10,16 @@
     "url": "https://github.com/ThrivingKings/animo.js.git"
   },
   "homepage": "http://labs.bigroomstudios.com/libraries/animo-js",
-  "dependencies": {
-    "jquery": ">=2.0.0"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ThrivingKings/animo.js.git",
-    "basePath": "",
-    "files": [
-      "*animo*.+(css|js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*animo*.+(css|js|map)"
+        ]
+      }
     ]
   },
   "keywords": [

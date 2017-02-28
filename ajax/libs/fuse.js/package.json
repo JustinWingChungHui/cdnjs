@@ -1,7 +1,7 @@
 {
   "name": "fuse.js",
   "filename": "fuse.min.js",
-  "version": "2.5.0",
+  "version": "2.6.2",
   "description": "Lightweight fuzzy-search",
   "homepage": "http://kiro.me/projects/fuse.html",
   "keywords": [
@@ -11,9 +11,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/krisk/Fuse.git",
-    "basePath": "src/",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "*"
+        ]
+      }
     ]
   },
   "repository": {

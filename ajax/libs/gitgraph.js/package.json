@@ -1,7 +1,7 @@
 {
   "name": "gitgraph.js",
   "filename": "gitgraph.min.js",
-  "version": "1.4.0",
+  "version": "1.8.3",
   "author": "Nicolas Carlo <nicolascarlo.espeon@gmail.com>",
   "description": "A JavaScript library to draw pretty git graphs in the browser",
   "repository": {
@@ -18,9 +18,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/nicoespeon/gitgraph.js.git",
-    "basePath": "build",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

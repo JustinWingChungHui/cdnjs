@@ -13,18 +13,18 @@
     "engine",
     "twig"
   ],
-  "dependencies": {
-    "walk": "2.1.x",
-    "minimatch": "0.2.x"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/justjohn/twig.js.git",
-    "basePath": "",
-    "files": [
-      "twig.js",
-      "twig.min.js",
-      "twig.min.js.map"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "twig.js",
+          "twig.min.js",
+          "twig.min.js.map"
+        ]
+      }
     ]
   },
   "license": "BSD-2-Clause"

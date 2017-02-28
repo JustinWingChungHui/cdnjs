@@ -8,9 +8,6 @@
     "datatables",
     "dynamic table"
   ],
-  "dependencies": {
-    "jquery": "1.6"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/alfajango/jquery-dynatable.git"
@@ -24,9 +21,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/alfajango/jquery-dynatable.git",
-    "basePath": "",
-    "files": [
-      "jquery.dynatable.+(css|js)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.dynatable.+(css|js)"
+        ]
+      }
     ]
   }
 }

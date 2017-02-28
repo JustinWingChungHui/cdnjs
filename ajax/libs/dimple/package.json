@@ -1,6 +1,6 @@
 {
   "name": "dimple",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "filename": "dimple.latest.min.js",
   "license": "MIT",
   "repository": {
@@ -16,9 +16,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/PMSI-AlignAlytics/dimple.git",
-    "basePath": "dist",
-    "files": [
-      "dimple.latest*.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "dimple.latest*.js"
+        ]
+      }
     ]
   },
   "description": "An object-oriented charting API for d3",

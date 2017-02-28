@@ -1,6 +1,6 @@
 {
   "name": "cytoscape",
-  "version": "2.7.9",
+  "version": "2.7.15",
   "filename": "cytoscape.min.js",
   "description": "Graph theory (a.k.a. network) library for analysis and visualisation",
   "homepage": "http://cytoscape.github.io/cytoscape.js",
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cytoscape/cytoscape.js.git",
-    "basePath": "dist",
-    "files": [
-      "**/*cytoscape*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*cytoscape*"
+        ]
+      }
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "jsmediatags",
   "filename": "jsmediatags.min.js",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Media Tags Reader (ID3, MP4)",
   "author": {
     "name": "António Afonso",
@@ -19,15 +19,16 @@
     "mp4"
   ],
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "xhr2": "~0.1.3"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/aadsm/jsmediatags.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

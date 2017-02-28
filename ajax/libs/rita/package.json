@@ -1,6 +1,6 @@
 {
   "name": "rita",
-  "version": "1.1.40",
+  "version": "1.1.51",
   "author": "Daniel C. Howe <daniel@rednoise.org>",
   "description": "RiTa: A toolkit for natural language and computational literature",
   "homepage": "https://rednoise.org/rita",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/dhowe/RiTaJS.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "filename": "rita.min.js"

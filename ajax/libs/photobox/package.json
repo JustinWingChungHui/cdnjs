@@ -18,9 +18,6 @@
     "url": "http://dropthebit.com"
   },
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.7"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yairEO/photobox.git"
@@ -28,10 +25,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/yairEO/photobox.git",
-    "basePath": "",
-    "files": [
-      "photobox/**/*photobox*",
-      "images/**/*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "photobox/**/*photobox*",
+          "images/**/*"
+        ]
+      }
     ]
   }
 }

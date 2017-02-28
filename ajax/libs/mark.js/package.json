@@ -1,6 +1,6 @@
 {
   "name": "mark.js",
-  "version": "8.4.0",
+  "version": "8.8.3",
   "keywords": [
     "mark.js",
     "markjs",
@@ -29,9 +29,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/julmot/mark.js.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

@@ -18,15 +18,16 @@
     "type": "git",
     "url": "https://github.com/franverona/loadgo.git"
   },
-  "dependencies": {
-    "jquery": ">=1.11.3"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/franverona/loadgo.git",
-    "basePath": "",
-    "files": [
-      "loadgo*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "loadgo*.js"
+        ]
+      }
     ]
   }
 }

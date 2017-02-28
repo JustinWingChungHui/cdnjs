@@ -1,6 +1,6 @@
 {
   "name": "force-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "René Tanczos (@gravmatt)",
   "filename": "force.min.js",
   "description": "The easy way to scroll and animate your page",
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/gravmatt/force-js.git",
-    "basePath": "src",
-    "files": [
-      "force*"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "force*"
+        ]
+      }
     ]
   }
 }

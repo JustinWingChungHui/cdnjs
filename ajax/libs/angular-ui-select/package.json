@@ -6,15 +6,24 @@
     "type": "git",
     "url": "git://github.com/angular-ui/ui-select.git"
   },
-  "version": "0.19.4",
+  "version": "0.20.0",
   "license": "MIT",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/angular-ui/ui-select.git",
-    "basePath": "dist",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
     ]
   },
-  "description": "AngularJS ui-select"
+  "description": "AngularJS ui-select",
+  "keywords": [
+    "angular",
+    "ui",
+    "select"
+  ]
 }

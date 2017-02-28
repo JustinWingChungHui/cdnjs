@@ -14,16 +14,17 @@
     "async",
     "responsive"
   ],
-  "dependencies": {
-    "postscribe": "^1.4.0"
-  },
   "license": "MIT",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/madgex/lazy-ads.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "rivets",
   "filename": "rivets.min.js",
-  "version": "0.9.4",
+  "version": "0.9.6",
   "description": "Declarative data binding + templating solution.",
   "license": "MIT",
   "homepage": "http://rivetsjs.com",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mikeric/rivets.git",
-    "basePath": "dist/",
-    "files": [
-      "*.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
     ]
   },
   "repository": {

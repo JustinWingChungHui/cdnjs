@@ -2,7 +2,7 @@
   "name": "angularFire",
   "filename": "angularfire.min.js",
   "description": "The officially supported AngularJS binding for Firebase",
-  "version": "2.0.2",
+  "version": "2.3.0",
   "keywords": [
     "realtime",
     "websockets",
@@ -19,10 +19,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/firebase/angularfire.git",
-    "basePath": "dist",
-    "files": [
-      "angularfire.js",
-      "angularfire.min.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "angularfire.js",
+          "angularfire.min.js"
+        ]
+      }
     ]
   },
   "author": "Firebase <support@firebase.com> (https://www.firebase.com/)"

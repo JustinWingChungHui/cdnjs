@@ -8,14 +8,18 @@ To add `git` auto-update config to a library, update the `package.json` with con
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jashkenas/underscore.git",
-    "basePath": "",
-    "files": [
-      "underscore-min.js",
-      "underscore-min.map",
-      "underscore.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "underscore-min.js",
+          "underscore-min.map",
+          "underscore.js"
+        ]
+      }
     ]
   }
- ```
+```
 
 To add an `npm` hook to a library, update the `package.json` with configuration details and submit your pull request. An example configuration:
 
@@ -35,8 +39,14 @@ To add an `npm` hook to a library, update the `package.json` with configuration 
 * `npmName` should map to the name of the library on `npm`
 * `npmFileMap` is a list of files to take from the `npm` tarball and host on cdnjs
 * `basePath` will be ignored when copying over to the CDN
-* `files` is a pattern matcher allowing selection of multiple files
+* `files` is a pattern matcher allowing selection of multiple files, see [node-glob](https://github.com/isaacs/node-glob#glob-primer)
+  * you can use `!(...)` to exclude the files which are not needed. For example, if you want to exclude `*.flow` and `*.scss`, you can use:
 
+  ```js
+  "files": [
+    "**/!(*.+(flow|scss))"  //To fetch all files except *.flow and *.scss
+  ]
+  ```
 
 The above example looks in the tarball whose structure might look like this:
 
@@ -67,5 +77,3 @@ The auto-update process will look for `dist` inside the named tarball and copy a
 ```
 
 ...where `x.y.z` is the version number, extracted from the `package.json` on npm.
-
-

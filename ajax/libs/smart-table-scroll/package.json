@@ -15,15 +15,16 @@
   ],
   "author": "Chris Polis, @ChrisPolis",
   "license": "MIT",
-  "dependencies": {
-    "lodash.sortedindex": "^3.1.1"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/cmpolis/smart-table-scroll.git",
-    "basePath": "",
-    "files": [
-      "smart-table-scroll*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "smart-table-scroll*"
+        ]
+      }
     ]
   }
 }

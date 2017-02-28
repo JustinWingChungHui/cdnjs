@@ -17,13 +17,10 @@
     "money",
     "jquery"
   ],
-  "dependencies": {
-    "jquery": ">=1.6"
-  },
   "npmName": "jquery-maskmoney",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "jquery.maskMoney.min.js"
       ]

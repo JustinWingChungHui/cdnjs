@@ -1,7 +1,7 @@
 {
   "name": "ng-i18next",
   "filename": "ng-i18next.min.js",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "AngularJS provider, filter and directive for i18next (i18next by Jan Mühlemann)",
   "author": {
     "name": "Andre Meyering"
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/i18next/ng-i18next.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

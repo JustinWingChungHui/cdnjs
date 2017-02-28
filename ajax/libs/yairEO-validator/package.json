@@ -10,15 +10,12 @@
     "input"
   ],
   "homepage": "https://yaireo.github.io/validator/",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "author": {
     "name": "Yair Even Or",
     "url": "http://dropthebit.com"
   },
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.5"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/yairEO/validator.git"
@@ -26,9 +23,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/yairEO/validator.git",
-    "basePath": "",
-    "files": [
-      "*validator*.+(js|css|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*validator*.+(js|css|map)"
+        ]
+      }
     ]
   }
 }

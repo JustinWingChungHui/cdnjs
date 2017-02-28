@@ -1,7 +1,7 @@
 {
   "name": "ace",
   "filename": "ace.js",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Ace (Ajax.org Cloud9 Editor)",
   "homepage": "http://ace.ajax.org/",
   "keywords": [
@@ -11,9 +11,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ajaxorg/ace-builds.git",
-    "basePath": "src-min",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "src-min",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "repository": {

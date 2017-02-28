@@ -1,6 +1,6 @@
 {
   "name": "platform",
-  "version": "1.3.1",
+  "version": "1.3.3",
   "filename": "platform.min.js",
   "description": "A platform detection library that works on nearly all JavaScript platforms.",
   "keywords": [
@@ -21,7 +21,7 @@
   "npmName": "platform",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "platform.js"
       ]

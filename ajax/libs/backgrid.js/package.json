@@ -1,7 +1,7 @@
 {
   "name": "backgrid.js",
   "filename": "backgrid.min.js",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "description": "Backgrid.js is a set of components for building semantic and easily stylable data grid widgets with Backbone.",
   "homepage": "http://backgridjs.com/",
   "keywords": [
@@ -11,10 +11,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wyuenho/backgrid.git",
-    "basePath": "lib",
-    "files": [
-      "backgrid*.js",
-      "backgrid*.css"
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "backgrid*.js",
+          "backgrid*.css"
+        ]
+      }
     ]
   },
   "repository": {

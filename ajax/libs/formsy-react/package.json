@@ -1,6 +1,6 @@
 {
   "name": "formsy-react",
-  "version": "0.18.1",
+  "version": "0.19.0",
   "filename": "formsy-react.js",
   "description": "A form input builder and validator for React JS",
   "repository": {
@@ -16,15 +16,16 @@
     "validation",
     "react-component"
   ],
-  "dependencies": {
-    "form-data-to-object": "^0.2.0"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/christianalfoni/formsy-react.git",
-    "basePath": "release",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "release",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

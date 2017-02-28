@@ -2,7 +2,7 @@
   "name": "datamaps",
   "filename": "datamaps.all.min.js",
   "description": "datamaps with d3.js",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "author": {
     "name": "Mark DiMarco",
     "email": "markmarkoh@gmail.com"
@@ -11,10 +11,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/markmarkoh/datamaps.git"
-  },
-  "dependencies": {
-    "d3": "^3.5.6",
-    "topojson": "^1.6.19"
   },
   "keywords": [
     "USA",

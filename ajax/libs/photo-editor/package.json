@@ -25,18 +25,17 @@
     "web",
     "development"
   ],
-  "dependencies": {
-    "cropperjs": "^0.5.5",
-    "font-awesome": "^4.5.0",
-    "vue": "^1.0.13"
-  },
   "homepage": "https://fengyuanchen.github.io/photo-editor/",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/fengyuanchen/photo-editor.git",
-    "basePath": "",
-    "files": [
-      "+(js|css)/main*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(js|css)/main*"
+        ]
+      }
     ]
   }
 }

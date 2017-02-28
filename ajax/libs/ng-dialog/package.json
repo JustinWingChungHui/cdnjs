@@ -1,6 +1,6 @@
 {
   "name": "ng-dialog",
-  "version": "0.6.4",
+  "version": "1.0.0",
   "description": "Modal dialogs and popups provider for Angular.js applications",
   "filename": "js/ngDialog.min.js",
   "homepage": "http://likeastore.github.io/ngDialog/",
@@ -11,7 +11,7 @@
   "npmName": "ng-dialog",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "css/ngDialog.css",
         "css/ngDialog.min.css",

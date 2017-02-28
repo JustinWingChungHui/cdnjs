@@ -1,16 +1,20 @@
 {
   "name": "list.js",
   "filename": "list.min.js",
-  "version": "1.2.0",
+  "version": "1.5.0",
   "description": "The perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML",
   "homepage": "http://listjs.com",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/javve/list.js.git",
-    "basePath": "/dist",
-    "files": [
-      "list.js",
-      "list.min.js"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "list.js",
+          "list.min.js"
+        ]
+      }
     ]
   },
   "keywords": [

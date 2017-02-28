@@ -11,16 +11,21 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wavded/humane-js.git",
-    "basePath": "",
-    "files": [
-      "humane.min.js",
-      "humane.js",
-      "themes/*.css"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "humane.min.js",
+          "humane.js",
+          "themes/*.css"
+        ]
+      }
     ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/wavded/humane-js"
   },
-  "author": "Marc Harter <@wavded> (wavded.com)"
+  "author": "Marc Harter <@wavded> (wavded.com)",
+  "license": "MIT"
 }

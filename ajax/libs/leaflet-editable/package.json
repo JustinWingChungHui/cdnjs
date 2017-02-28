@@ -1,7 +1,7 @@
 {
   "name": "leaflet-editable",
   "filename": "Leaflet.Editable.min.js",
-  "version": "0.6.2",
+  "version": "1.0.0",
   "description": "Make geometries editable in Leaflet",
   "keywords": [
     "leaflet",
@@ -17,9 +17,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Leaflet/Leaflet.Editable.git",
-    "basePath": "src",
-    "files": [
-      "Leaflet.Editable*.js"
+    "fileMap": [
+      {
+        "basePath": "src",
+        "files": [
+          "Leaflet.Editable*.js"
+        ]
+      }
     ]
   }
 }

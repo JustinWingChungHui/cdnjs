@@ -12,9 +12,6 @@
     "type": "git",
     "url": "git://github.com/ReactiveRaven/jqBootstrapValidation.git"
   },
-  "dependencies": {
-    "jQuery": "*"
-  },
   "keywords": [
     "jquery",
     "validation",
@@ -27,9 +24,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/ReactiveRaven/jqBootstrapValidation.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

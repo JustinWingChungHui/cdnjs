@@ -1,12 +1,10 @@
 {
   "name": "TableExport",
   "filename": "js/tableexport.min.js",
-  "version": "3.2.10",
+  "version": "3.3.9",
   "author": "clarketm <travis.m.clarke@gmail.com>",
   "description": "The simple, easy-to-implement plugin to export HTML tables to xlsx, xls, csv, and txt files",
   "keywords": [
-    "table",
-    "export",
     "table",
     "export",
     "Excel",
@@ -26,9 +24,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/clarketm/TableExport.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

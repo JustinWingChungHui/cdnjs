@@ -1,7 +1,7 @@
 {
   "name": "16pixels",
   "filename": "16pixels.min.css",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "16pixels as a node packaged module",
   "homepage": "http://englishextra.github.io/libs/16pixels/",
   "keywords": [
@@ -10,9 +10,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/englishextra/16pixels.git",
-    "basePath": "css/",
-    "files": [
-      "16pixels*"
+    "fileMap": [
+      {
+        "basePath": "css",
+        "files": [
+          "16pixels*"
+        ]
+      }
     ]
   },
   "repository": {

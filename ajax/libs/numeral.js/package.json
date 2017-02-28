@@ -1,7 +1,7 @@
 {
   "name": "numeral.js",
   "filename": "numeral.min.js",
-  "version": "1.5.3",
+  "version": "2.0.4",
   "description": "Format and manipulate numbers.",
   "homepage": "http://numeraljs.com/",
   "keywords": [
@@ -15,9 +15,9 @@
   "npmName": "numeral",
   "npmFileMap": [
     {
-      "basePath": "/min/",
+      "basePath": "min",
       "files": [
-        "numeral.min.js"
+        "**/*"
       ]
     }
   ],

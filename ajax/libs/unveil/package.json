@@ -14,16 +14,17 @@
     "type": "git",
     "url": "git://github.com/luis-almeida/unveil"
   },
-  "dependencies": {
-    "jquery": ">= 1.9.0"
-  },
   "license": "MIT",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/luis-almeida/unveil.git",
-    "basePath": "",
-    "files": [
-      "jquery.unveil*.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.unveil*.js"
+        ]
+      }
     ]
   }
 }

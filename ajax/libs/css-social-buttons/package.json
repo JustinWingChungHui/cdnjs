@@ -1,7 +1,7 @@
 {
   "name": "css-social-buttons",
   "description": "Zocial CSS social buttons.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "keywords": [
     "css",
     "font",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/smcllns/css-social-buttons.git",
-    "basePath": "",
-    "files": [
-      "css/zocial*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "css/zocial*"
+        ]
+      }
     ]
   },
   "author": "Sam Collins"

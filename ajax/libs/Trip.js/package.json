@@ -18,15 +18,16 @@
   ],
   "license": "MIT",
   "homepage": "http://eragonj.github.io/Trip.js/",
-  "dependencies": {
-    "jquery": "^2.1.4"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/EragonJ/Trip.js.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

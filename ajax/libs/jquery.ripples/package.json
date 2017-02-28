@@ -23,15 +23,16 @@
     "type": "git",
     "url": "https://github.com/sirxemic/jquery.ripples.git"
   },
-  "dependencies": {
-    "jquery": ">=1.7.0"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/sirxemic/jquery.ripples.git",
-    "basePath": "",
-    "files": [
-      "jquery.ripples*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.ripples*"
+        ]
+      }
     ]
   }
 }

@@ -2,7 +2,7 @@
   "name": "KaTeX",
   "filename": "katex.min.js",
   "description": "Fast math typesetting for the web.",
-  "version": "0.6.0",
+  "version": "0.7.1",
   "homepage": "https://khan.github.io/KaTeX/",
   "keywords": [
     "tex",
@@ -18,12 +18,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/Khan/KaTeX.git",
-    "basePath": "dist",
-    "files": [
-      "katex.min.js",
-      "katex.min.css",
-      "contrib/*",
-      "fonts/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "katex.min.js",
+          "katex.min.css",
+          "contrib/*",
+          "fonts/*"
+        ]
+      }
     ]
   }
 }

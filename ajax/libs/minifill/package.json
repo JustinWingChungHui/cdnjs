@@ -1,6 +1,6 @@
 {
   "name": "minifill",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A minimal polyfill with most essential stuff",
   "filename": "minifill.min.js",
   "repository": {
@@ -16,9 +16,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/thednp/minifill.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

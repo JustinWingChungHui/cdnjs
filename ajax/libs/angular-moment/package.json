@@ -2,11 +2,11 @@
   "name": "angular-moment",
   "filename": "angular-moment.min.js",
   "description": "Angular.JS directives for Moment.JS (timeago alternative)",
-  "version": "0.10.3",
+  "version": "1.0.1",
   "npmName": "angular-moment",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "angular-moment.js",
         "angular-moment.min.js",

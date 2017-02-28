@@ -31,16 +31,17 @@
     "form"
   ],
   "homepage": "https://github.com/teamdf/jquery-number/",
-  "dependencies": {
-    "jquery": ">1.7.0"
-  },
   "license": "MIT",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/customd/jquery-number.git",
-    "basePath": "",
-    "files": [
-      "jquery.number*.+(js|map)"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.number*.+(js|map)"
+        ]
+      }
     ]
   }
 }

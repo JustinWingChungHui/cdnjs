@@ -14,16 +14,17 @@
   "author": "Vedavyas",
   "homepage": "https://vyasrao.github.io/tAutocomplete",
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.5"
-  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/vyasrao/tAutocomplete.git",
-    "basePath": "",
-    "files": [
-      "tautocomplete!(*.json)",
-      "img/*.gif"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "tautocomplete!(*.json)",
+          "img/*.gif"
+        ]
+      }
     ]
   }
 }

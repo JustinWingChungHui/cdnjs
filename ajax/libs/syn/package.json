@@ -1,7 +1,7 @@
 {
   "name": "syn",
-  "version": "0.3.0",
-  "filename": "cjs/syn.min.js",
+  "version": "0.4.1",
+  "filename": "amd/syn.min.js",
   "author": {
     "name": "Bitovi",
     "email": "contact@bitovi.com",
@@ -20,9 +20,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/bitovi/syn.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "description": "Standalone Synthetic Event Library"

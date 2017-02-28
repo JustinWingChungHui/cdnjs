@@ -1,6 +1,6 @@
 {
   "name": "jsnlog",
-  "version": "2.20.0",
+  "version": "2.22.1",
   "description": "Simple logging package. Use on client and/or server. On the client, sends logs to the server and stores them in your existing server side logs. On the server, log to console or use Winston transports. Ideal for logging exceptions, AJAX timeouts.",
   "repository": {
     "type": "git",
@@ -21,11 +21,15 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mperdeck/jsnlog.js.git",
-    "basePath": "",
-    "files": [
-      "jsnlog.min.js",
-      "jsnlog.js.map",
-      "jsnlog.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jsnlog.min.js",
+          "jsnlog.js.map",
+          "jsnlog.js"
+        ]
+      }
     ]
   },
   "filename": "jsnlog.min.js"

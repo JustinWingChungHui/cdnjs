@@ -1,7 +1,7 @@
 {
   "name": "nvd3",
   "filename": "nv.d3.min.js",
-  "version": "1.8.4",
+  "version": "1.8.5",
   "description": "A reusable charting library written in d3.js",
   "keywords": [
     "d3",
@@ -25,9 +25,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/novus/nvd3.git",
-    "basePath": "build",
-    "files": [
-      "*"
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "*"
+        ]
+      }
     ]
   },
   "license": "Apache-2.0"

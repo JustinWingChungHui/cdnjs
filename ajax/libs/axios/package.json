@@ -1,6 +1,6 @@
 {
   "name": "axios",
-  "version": "0.14.0",
+  "version": "0.15.3",
   "description": "Promise based HTTP client for the browser and node.js",
   "repository": {
     "type": "git",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/mzabriskie/axios.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   }
 }

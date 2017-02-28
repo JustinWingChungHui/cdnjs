@@ -1,6 +1,6 @@
 {
   "name": "riot",
-  "version": "2.6.2",
+  "version": "3.3.1",
   "description": "A React-like user interface micro-library",
   "homepage": "https://muut.com/riotjs/",
   "repository": {
@@ -38,12 +38,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/riot/riot.git",
-    "basePath": "",
-    "files": [
-      "riot.js",
-      "riot.min.js",
-      "riot+compiler.js",
-      "riot+compiler.min.js"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "riot.js",
+          "riot.min.js",
+          "riot+compiler.js",
+          "riot+compiler.min.js"
+        ]
+      }
     ]
   }
 }

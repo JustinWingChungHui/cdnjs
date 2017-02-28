@@ -12,7 +12,7 @@
     "ui",
     "images"
   ],
-  "version": "0.3.2",
+  "version": "0.4.7",
   "homepage": "http://stephanwagner.me/jBox",
   "author": {
     "name": "Stephan Wagner",
@@ -26,10 +26,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/StephanWagner/jBox.git",
-    "basePath": "Source",
-    "files": [
-      "jBox*",
-      "themes/*.css"
+    "fileMap": [
+      {
+        "basePath": "Source",
+        "files": [
+          "jBox*",
+          "themes/*.css"
+        ]
+      }
     ]
   }
 }

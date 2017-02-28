@@ -1,7 +1,7 @@
 {
   "name": "basis.js",
   "filename": "basis.min.js",
-  "version": "1.9.2",
+  "version": "1.10.0",
   "description": "JavaScript framework to build single-page applications",
   "homepage": "http://basisjs.com/",
   "keywords": [
@@ -13,7 +13,7 @@
   "npmName": "basis-library",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "*.js"
       ]

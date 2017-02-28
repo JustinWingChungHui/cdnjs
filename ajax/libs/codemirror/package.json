@@ -1,7 +1,7 @@
 {
   "name": "codemirror",
   "filename": "codemirror.min.js",
-  "version": "5.19.0",
+  "version": "5.24.2",
   "description": "In-browser code editing made bearable",
   "keywords": [
     "JavaScript",
@@ -16,13 +16,13 @@
   "npmName": "codemirror",
   "npmFileMap": [
     {
-      "basePath": "/lib/",
+      "basePath": "lib",
       "files": [
         "*.+(js|css)"
       ]
     },
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "+(addon|theme|mode|keymap)/**/*.+(js|css)"
       ]

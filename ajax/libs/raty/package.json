@@ -1,8 +1,5 @@
 {
   "author": "Washington Botelho",
-  "dependencies": {
-    "jquery": "2"
-  },
   "description": "jQuery Raty - A Star Rating Plugin",
   "keywords": [
     "classificacao",
@@ -29,10 +26,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/wbotelhos/raty.git",
-    "basePath": "lib",
-    "files": [
-      "**/?(jquery.)raty*",
-      "images/*.png"
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "**/?(jquery.)raty*",
+          "images/*.png"
+        ]
+      }
     ]
   }
 }

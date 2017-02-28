@@ -1,7 +1,7 @@
 {
   "name": "openlocationcode",
   "filename": "openlocationcode.min.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to convert between lat/lng and OLC codes",
   "repository": {
     "type": "git",
@@ -18,9 +18,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/google/open-location-code.git",
-    "basePath": "js/src",
-    "files": [
-      "openlocationcode*.js"
+    "fileMap": [
+      {
+        "basePath": "js/src",
+        "files": [
+          "openlocationcode*.js"
+        ]
+      }
     ]
   }
 }

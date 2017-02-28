@@ -1,7 +1,7 @@
 {
   "name": "Leaflet.Spin",
   "filename": "leaflet.spin.min.js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://makinacorpus.github.io/Leaflet.Spin/",
   "author": {
     "name": "Makina Corpus",
@@ -15,10 +15,6 @@
     "spinner"
   ],
   "license": "MIT",
-  "dependencies": {
-    "leaflet": "^0.7.3",
-    "spin.js": "^2.3.1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/makinacorpus/Leaflet.Spin.git"
@@ -26,9 +22,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/makinacorpus/Leaflet.Spin.git",
-    "basePath": "",
-    "files": [
-      "leaflet.spin*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "leaflet.spin*"
+        ]
+      }
     ]
   }
 }

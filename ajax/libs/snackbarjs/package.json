@@ -12,9 +12,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/FezVrasta/snackbarjs.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
-  }
+  },
+  "keywords": [
+    "snackbarjs"
+  ]
 }

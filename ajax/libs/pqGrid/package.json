@@ -2,7 +2,7 @@
   "name": "pqGrid",
   "title": "ParamQuery Grid",
   "filename": "pqgrid.min.js",
-  "version": "2.0.5",
+  "version": "2.2.0",
   "author": {
     "name": "Paramvir Dhindsa",
     "email": "pdhindsa@paramquery.com",
@@ -39,12 +39,16 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/paramquery/grid.git",
-    "basePath": "",
-    "files": [
-      "pqgrid*.+(js|css)",
-      "images/*.+(png|gif)",
-      "localize/pq-localize-*.js",
-      "themes/**/*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "pqgrid*.+(js|css)",
+          "images/*.+(png|gif)",
+          "localize/pq-localize-*.js",
+          "themes/**/*"
+        ]
+      }
     ]
   }
 }

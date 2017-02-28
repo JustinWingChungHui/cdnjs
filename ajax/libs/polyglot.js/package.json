@@ -1,6 +1,6 @@
 {
   "name": "polyglot.js",
-  "version": "2.0.0",
+  "version": "2.2.2",
   "description": "Give your JavaScript the ability to speak many languages.",
   "filename": "polyglot.min.js",
   "repository": {
@@ -17,13 +17,17 @@
     "polyglot"
   ],
   "author": "Spike Brehm <spike@airbnb.com>",
-  "license": "BSD",
+  "license": "BSD-2-Clause",
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/airbnb/polyglot.js.git",
-    "basePath": "build",
-    "files": [
-      "polyglot*"
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "polyglot*"
+        ]
+      }
     ]
   }
 }

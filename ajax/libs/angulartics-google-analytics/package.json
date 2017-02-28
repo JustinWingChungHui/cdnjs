@@ -1,6 +1,6 @@
 {
   "name": "angulartics-google-analytics",
-  "version": "0.2.1",
+  "version": "0.4.0",
   "description": "Google Analytics plugin for Angulartics",
   "filename": "angulartics-ga.min.js",
   "keywords": [
@@ -16,13 +16,10 @@
     "url": "https://github.com/angulartics/angulartics-google-analytics"
   },
   "license": "MIT",
-  "dependencies": {
-    "angulartics": "~0.20"
-  },
   "npmName": "angulartics-google-analytics",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "**/*"
       ]

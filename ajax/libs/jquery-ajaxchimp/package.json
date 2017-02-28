@@ -13,9 +13,6 @@
     "url": "git://github.com/scdoshi/jquery-ajaxchimp.git"
   },
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">= 1.9.0"
-  },
   "keywords": [
     "mailchimp",
     "ajax",
@@ -26,9 +23,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/scdoshi/jquery-ajaxchimp.git",
-    "basePath": "",
-    "files": [
-      "jquery.ajaxchimp*"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.ajaxchimp*"
+        ]
+      }
     ]
   }
 }

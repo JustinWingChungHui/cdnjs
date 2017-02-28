@@ -1,7 +1,7 @@
 {
   "name": "yasr",
   "description": "Yet Another SPARQL Resultset Visualizer",
-  "version": "2.9.0",
+  "version": "2.10.6",
   "author": "Laurens Rietveld",
   "homepage": "http://yasr.yasgui.org",
   "keywords": [
@@ -19,7 +19,7 @@
   "npmName": "yasgui-yasr",
   "npmFileMap": [
     {
-      "basePath": "/dist/",
+      "basePath": "dist",
       "files": [
         "*.min.js",
         "*.min.js.map",

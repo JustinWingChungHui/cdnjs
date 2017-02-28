@@ -1,7 +1,7 @@
 {
   "name": "angular-recaptcha",
   "filename": "angular-recaptcha.min.js",
-  "version": "3.0.4",
+  "version": "4.0.3",
   "description": "An AngularJS module to ease usage of reCaptcha inside a form",
   "keywords": [
     "angular",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/vividcortex/angular-recaptcha.git",
-    "basePath": "release/",
-    "files": [
-      "angular-recaptcha*.js"
+    "fileMap": [
+      {
+        "basePath": "release",
+        "files": [
+          "angular-recaptcha*.js"
+        ]
+      }
     ]
   },
   "repository": {

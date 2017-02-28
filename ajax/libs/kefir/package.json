@@ -1,7 +1,7 @@
 {
   "name": "kefir",
   "filename": "kefir.min.js",
-  "version": "3.5.1",
+  "version": "3.7.1",
   "description": "Reactive Programming library for JavaScript inspired by Bacon.js and RxJS with focus on high performance and low memory usage",
   "keywords": [
     "frp",
@@ -27,9 +27,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/rpominov/kefir.git",
-    "basePath": "dist",
-    "files": [
-      "**/*.!(flow)"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.flow)"
+        ]
+      }
     ]
   }
 }

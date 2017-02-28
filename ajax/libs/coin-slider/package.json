@@ -11,9 +11,6 @@
     "slider",
     "image"
   ],
-  "dependencies": {
-    "jquery": ">=1.2.2"
-  },
   "author": {
     "name": "Ivan Lazarevic",
     "url": "http://workshop.rs",
@@ -23,10 +20,14 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kopipejst/coin-slider.git",
-    "basePath": "",
-    "files": [
-      "coin-slider.js",
-      "coin-slider-styles.css"
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "coin-slider.js",
+          "coin-slider-styles.css"
+        ]
+      }
     ]
   }
 }

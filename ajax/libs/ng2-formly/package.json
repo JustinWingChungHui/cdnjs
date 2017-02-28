@@ -1,7 +1,7 @@
 {
   "name": "ng2-formly",
-  "filename": "ng2-formly.min.js",
-  "version": "2.0.0-beta.1",
+  "filename": "ng2-formly.umd.min.js",
+  "version": "2.0.0-beta.14",
   "author": {
     "name": "Zama Khan Mohammed",
     "email": "mohammedzamakhan@gmail.com"
@@ -11,7 +11,7 @@
     {
       "basePath": "bundles",
       "files": [
-        "**/!(*.gz)"
+        "**/ng2-formly*"
       ]
     }
   ],
@@ -31,13 +31,5 @@
     "type": "git",
     "url": "git+https://github.com/formly-js/ng2-formly.git"
   },
-  "homepage": "https://formly-js.github.io/ng2-formly/",
-  "dependencies": {
-    "angular2": "2.0.0-beta.14",
-    "es6-shim": "0.35.0",
-    "reflect-metadata": "0.1.2",
-    "rxjs": "5.0.0-beta.2",
-    "zone.js": "0.6.6",
-    "systemjs": "0.19.6"
-  }
+  "homepage": "https://formly-js.github.io/ng2-formly/"
 }

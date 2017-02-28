@@ -1,7 +1,7 @@
 {
   "name": "autosize.js",
   "filename": "autosize.min.js",
-  "version": "3.0.17",
+  "version": "3.0.20",
   "author": {
     "name": "Jack Moore",
     "url": "http://www.jacklmoore.com",
@@ -19,9 +19,13 @@
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jackmoore/autosize.git",
-    "basePath": "dist",
-    "files": [
-      "**/*"
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
     ]
   },
   "repository": {

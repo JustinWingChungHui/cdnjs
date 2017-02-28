@@ -19,15 +19,12 @@
   "npmName": "d3-geo-projection",
   "npmFileMap": [
     {
-      "basePath": "/",
+      "basePath": "",
       "files": [
         "d3.geo.projection.js",
         "d3.geo.projection.min.js"
       ]
     }
   ],
-  "license": {
-    "type": "BSD",
-    "url": "https://github.com/d3/d3-geo-projection/blob/master/LICENSE"
-  }
+  "license": "BSD-3-Clause"
 }
